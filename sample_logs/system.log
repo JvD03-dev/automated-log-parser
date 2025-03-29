@@ -1,0 +1,13 @@
+Oct 10 13:55:36 server1 systemd[1]: Started Daily apt upgrade and clean activities.
+Oct 10 13:55:37 server1 sshd[1234]: Failed password for root from 192.168.1.100 port 54321 ssh2
+Oct 10 13:55:38 server1 sshd[1234]: Failed password for root from 192.168.1.100 port 54321 ssh2
+Oct 10 13:55:39 server1 sshd[1234]: Failed password for root from 192.168.1.100 port 54321 ssh2
+Oct 10 13:55:40 server1 sshd[1234]: POSSIBLE BREAK-IN ATTEMPT! Failed password for root from 192.168.1.100 port 54321 ssh2
+Oct 10 13:55:41 server1 systemd[1]: Stopping System Logging Service...
+Oct 10 13:55:42 server1 systemd[1]: Stopped System Logging Service.
+Oct 10 13:55:43 server1 systemd[1]: Started System Logging Service.
+Oct 10 13:55:44 server1 kernel: [123456.789012] Firewall: Dropped packet from 45.67.89.123 (port scan attempt)
+Oct 10 13:55:45 server1 kernel: [123456.789013] Firewall: Dropped packet from 45.67.89.123 (port scan attempt)
+Oct 10 13:55:46 server1 kernel: [123456.789014] Firewall: Dropped packet from 45.67.89.123 (port scan attempt)
+Oct 10 13:55:47 server1 systemd[1]: Started Daily apt upgrade and clean activities.
+Oct 10 13:55:48 server1 sudo: pam_unix(sudo:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/pts/0 ruser=root rhost= user=admin 

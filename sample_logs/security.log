@@ -1,0 +1,13 @@
+Oct 10 13:55:36 server1 audit[1234]: USER_AUTH acct="admin" exe="/usr/bin/sudo" hostname=? addr=192.168.1.100 terminal=/dev/pts/0 res=failed
+Oct 10 13:55:37 server1 audit[1234]: CRYPTO_KEY_USER acct="admin" exe="/usr/bin/ssh" hostname=? addr=45.67.89.123 terminal=/dev/pts/0 res=success
+Oct 10 13:55:38 server1 audit[1234]: CRYPTO_KEY_USER acct="admin" exe="/usr/bin/ssh" hostname=? addr=45.67.89.123 terminal=/dev/pts/0 res=failed
+Oct 10 13:55:39 server1 audit[1234]: CRYPTO_KEY_USER acct="admin" exe="/usr/bin/ssh" hostname=? addr=45.67.89.123 terminal=/dev/pts/0 res=failed
+Oct 10 13:55:40 server1 audit[1234]: CRYPTO_KEY_USER acct="admin" exe="/usr/bin/ssh" hostname=? addr=45.67.89.123 terminal=/dev/pts/0 res=failed
+Oct 10 13:55:41 server1 audit[1234]: USER_LOGIN acct="admin" exe="/usr/bin/sudo" hostname=? addr=10.0.0.5 terminal=/dev/pts/0 res=success
+Oct 10 13:55:42 server1 audit[1234]: USER_CMD acct="admin" exe="/usr/bin/sudo" hostname=? addr=10.0.0.5 terminal=/dev/pts/0 res=success
+Oct 10 13:55:43 server1 audit[1234]: USER_CMD acct="admin" exe="/usr/bin/sudo" hostname=? addr=10.0.0.5 terminal=/dev/pts/0 res=success
+Oct 10 13:55:44 server1 audit[1234]: USER_CMD acct="admin" exe="/usr/bin/sudo" hostname=? addr=10.0.0.5 terminal=/dev/pts/0 res=failed
+Oct 10 13:55:45 server1 audit[1234]: USER_CMD acct="admin" exe="/usr/bin/sudo" hostname=? addr=10.0.0.5 terminal=/dev/pts/0 res=failed
+Oct 10 13:55:46 server1 audit[1234]: USER_CMD acct="admin" exe="/usr/bin/sudo" hostname=? addr=10.0.0.5 terminal=/dev/pts/0 res=failed
+Oct 10 13:55:47 server1 audit[1234]: USER_CMD acct="admin" exe="/usr/bin/sudo" hostname=? addr=10.0.0.5 terminal=/dev/pts/0 res=failed
+Oct 10 13:55:48 server1 audit[1234]: USER_CMD acct="admin" exe="/usr/bin/sudo" hostname=? addr=10.0.0.5 terminal=/dev/pts/0 res=failed 
